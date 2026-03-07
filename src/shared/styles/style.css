@@ -1,0 +1,215 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: rgba(66, 66, 66, 0.87);
+  
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+.body.a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+.body.a:hover {
+  color: #f8f8fa;
+}
+
+body {
+  display: flex;
+  place-items: top;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.body.h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.body.button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #646cff; /* Changed from #aa9494 (brownish) to Blue */
+  color: white; /* Ensure text is visible on blue */
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.body.button:hover {
+  border-color: #aeb3ff;
+}
+.body.button:focus,
+.body.button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.body.card {
+  padding: 2em;
+}
+
+#app {
+  border-top: 60px solid transparent;
+  width:100%;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #21354715;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode #app {
+  color: #e0e0e0;
+}
+
+body.dark-mode a {
+  color: #8ab4f8;
+}
+
+body.dark-mode a:hover {
+  color: #aecbfa;
+}
+
+body.dark-mode button {
+  background-color: #333;
+  color: #e0e0e0;
+  border-color: #555;
+}
+
+body.dark-mode button:hover {
+  border-color: #8ab4f8;
+}
+
+body.dark-mode .card {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  color: #e0e0e0;
+}
+
+body.dark-mode .navbar {
+  /* Navbar is already dark, but maybe we want to adjust border or something */
+  border-bottom: 1px solid #333;
+}
+
+body.dark-mode input,
+body.dark-mode textarea,
+body.dark-mode select {
+  background-color: #2c2c2c;
+  color: #e0e0e0;
+  border: 1px solid #444;
+}
+
+body.dark-mode .profile-box,
+body.dark-mode .login-box,
+body.dark-mode .signup-box {
+  background-color: #1e1e1e !important;
+  border: 1px solid #333;
+  color: #e0e0e0;
+}
+
+body.dark-mode .profile-content,
+body.dark-mode .profile-section {
+  background-color: #1e1e1e !important;
+}
+
+body.dark-mode .profile-header h2,
+body.dark-mode .profile-header h4,
+body.dark-mode .header-title,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4 {
+  color: #e0e0e0 !important;
+}
+
+body.dark-mode .text-muted,
+body.dark-mode .post-description,
+body.dark-mode .post-stats,
+body.dark-mode .no-posts {
+  color: #aaa !important;
+}
+
+body.dark-mode .post-item {
+  background-color: #2c2c2c !important;
+  border-color: #444 !important;
+}
+
+body.dark-mode .about-text:hover,
+body.dark-mode .edit-name-btn:hover,
+body.dark-mode .save-name-btn:hover,
+body.dark-mode .cancel-name-btn:hover {
+  background-color: #333 !important;
+}
+
+body.dark-mode .consent-wall-container {
+  background-color: #1e1e1e !important;
+  color: #e0e0e0;
+}
+
+body.dark-mode .consent-wall-header {
+  border-bottom: 1px solid #333;
+}
+
+body.dark-mode .main-message,
+body.dark-mode .category-name,
+body.dark-mode .policy-toggle {
+  color: #e0e0e0 !important;
+}
+
+body.dark-mode .category-item,
+body.dark-mode .policy-toggle,
+body.dark-mode .policy-content-section,
+body.dark-mode .consent-wall-actions {
+  background-color: #2c2c2c !important;
+  border-color: #444 !important;
+}
+
+body.dark-mode .category-description {
+  color: #aaa !important;
+}
+
+body.dark-mode .policy-toggle:hover {
+  background-color: #333 !important;
+}
+
+body.dark-mode .consent-checkbox {
+  border-color: #555;
+  background-color: #333;
+}
+
+body.dark-mode .consent-checkbox:checked {
+  background-color: #667eea;
+  border-color: #667eea;
+}
+
+body.dark-mode .btn-reject {
+  background-color: #dc3545;
+}
+
+body.dark-mode .btn-accept {
+  background-color: #28a745;
+}
+

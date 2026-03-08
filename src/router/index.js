@@ -54,7 +54,7 @@ const ReportHistory = () => import('@/shared/components/ReportHistory.vue').catc
 // Function to get the appropriate component based on subdomain
 function getSubdomainComponent() {
   const hostname = window.location.hostname;
-  const productionDomain = import.meta.env?.VITE_PRODUCTION_DOMAIN || process.env.VUE_APP_PRODUCTION_DOMAIN || 'srgunturkun.com';
+  const productionDomain = import.meta.env?.VITE_PRODUCTION_DOMAIN || process.env.VUE_APP_PRODUCTION_DOMAIN || 'yourdomain.com';
   
   // Check if we're on the production domain
   if (!hostname.includes(productionDomain)) {

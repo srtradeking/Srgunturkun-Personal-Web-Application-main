@@ -11,26 +11,6 @@
 
 Srgunturkun Web Application is a comprehensive e-sports community platform designed to bring together gamers, content creators, and e-sports enthusiasts in a unified digital space. Built with modern web technologies, our platform provides a feature-rich environment where users can share gaming content, connect with fellow players, track their gaming profiles, and participate in community discussions.
 
-### 🎯 Our Mission
-
-To create the ultimate e-sports community hub where players of all levels can:
-- Share their gaming achievements and content
-- Connect with like-minded gamers
-- Discover new games and strategies
-- Build their gaming reputation
-- Engage in meaningful community interactions
-
-## 🚀 Key Features
-
-### 📱 Multi-Application Architecture
-
-Srgunturkun Web Application utilizes a sophisticated subdomain-based architecture with dedicated applications:
-
-- **Main Hub** (`www.srgunturkun.com`) - Community landing and information
-- **Social Hub** (`social.srgunturkun.com`) - Content sharing and community interaction
-- **Account Management** (`account.srgunturkun.com`) - User profiles and settings
-- **Profile System** (`profiles.srgunturkun.com`) - Public gaming profiles
-
 ### 🎮 Core Features
 
 #### 📺 Content Sharing & Discovery
@@ -226,15 +206,7 @@ npm run lint:fix     # Fix linting issues
 
 ## 🎮 Game Categories
 
-The platform supports a wide range of e-sports titles:
-
-- **FPS Games** - Counter-Strike, Valorant, Overwatch
-- **MOBA Games** - League of Legends, Dota 2, Heroes of the Storm
-- **Battle Royale** - Fortnite, PUBG, Apex Legends
-- **Fighting Games** - Street Fighter, Tekken, Mortal Kombat
-- **Strategy Games** - StarCraft, Age of Empires, Chess
-- **Sports Games** - FIFA, NBA 2K, Madden NFL
-- **Racing Games** - Forza, Gran Turismo, Need for Speed
+Games are managed from database layer.
 
 ## 🔒 Security Features
 
@@ -272,18 +244,11 @@ We welcome contributions from the community! Here's how you can help:
 - Update documentation as needed
 - Ensure all tests pass before submitting
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🆘 Support
-
 ### Getting Help
 
 - **Documentation** - Check our comprehensive guides
 - **Community Forum** - Connect with other developers
 - **Issue Tracker** - Report bugs or request features
-- **Discord Server** - Join our developer community
 
 ### FAQ
 
@@ -295,19 +260,6 @@ A: Yes, the platform is designed for self-hosting with Docker support.
 
 **Q: What are the system requirements?**
 A: Minimum 4GB RAM, 2 CPU cores, and 20GB storage for basic setup.
-
-## 🗺️ Roadmap
-
-### Upcoming Features
-
-- [ ] **Tournament Management** - Organize and track e-sports tournaments
-- [ ] **Live Streaming Integration** - Embed Twitch and YouTube streams
-- [ ] **Mobile Apps** - Native iOS and Android applications
-- [ ] **AI Content Moderation** - Automated content filtering
-- [ ] **Gaming Stats API** - Integration with game statistics services
-- [ ] **Virtual Currency System** - Platform-specific rewards and achievements
-- [ ] **Team Management** - Create and manage gaming teams
-- [ ] **Matchmaking System** - Connect players for casual and competitive matches
 
 ### Long-term Vision
 
@@ -321,10 +273,7 @@ Our goal is to become the definitive platform for e-sports communities worldwide
 
 ## 📞 Contact
 
-- **Website**: [https://srgunturkun.com](https://srgunturkun.com)
-- **Email**: support@srgunturkun.com
-- **Twitter**: [@Srgunturkun](https://twitter.com/srgunturkun)
-- **Discord**: [Join our community](https://discord.gg/srgunturkun)
+- **Email**: sezai012@hotmail.com
 
 ---
 

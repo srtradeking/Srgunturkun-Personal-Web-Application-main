@@ -50,7 +50,7 @@ public class EmailVerificationService {
                     "--\n" +
                     "Best Regards,\n" +
                     "SR Gunturkun\n" +
-                    "noreply.srgunturkun@gmail.com";
+                    "noreply.yourdomain@gmail.com";
 
             sendEmail(profile.getEmail(), subject, body);
             log.info("Verification email sent to {}", profile.getEmail());

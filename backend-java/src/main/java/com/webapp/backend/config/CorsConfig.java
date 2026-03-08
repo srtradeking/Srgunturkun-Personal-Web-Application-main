@@ -16,7 +16,7 @@ public class CorsConfig {
      * Comma-separated list of allowed origins.
      *
      * Example (prod):
-     * https://www.srgunturkun.app,https://api.srgunturkun.app
+     * https://www.yourdomain.app,https://api.yourdomain.app
      */
     @Value("${CORS_ALLOWED_ORIGINS}")
     private List<String> allowedOrigins;

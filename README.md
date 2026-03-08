@@ -2,7 +2,6 @@
 
 > **Connect, Compete, Share** - Your ultimate destination for the e-sports community
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Vue.js](https://img.shields.io/badge/Vue.js-3.x-green.svg)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2.0-brightgreen.svg)
 ![Java](https://img.shields.io/badge/Java-17-orange.svg)

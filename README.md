@@ -119,12 +119,12 @@ docker-compose logs -f
 
 ### Production Deployment
 
-The application supports subdomain-based deployment:
+The application supports route-based deployment:
 
 1. **Main Application** - Deploy to `yourdomain.com`
-2. **Social Hub** - Deploy to `social.yourdomain.com`
-3. **Account Management** - Deploy to `account.yourdomain.com`
-4. **Profiles** - Deploy to `profiles.yourdomain.com`
+2. **Social Hub** - Deploy to `yourdomain.com/social`
+3. **Account Management** - Deploy to `yourdomain.com/account`
+4. **Profiles** - Deploy to `yourdomain.com/profiles`
 
 ### Environment Configuration
 
@@ -132,7 +132,7 @@ Key environment variables:
 
 ```env
 VITE_PRODUCTION_DOMAIN=yourdomain.com
-VITE_API_BASE_URL=https://api.yourdomain.com
+VITE_API_BASE_URL=https://yourdomain.com/api
 VITE_REDIS_URL=redis://your-redis-server
 DATABASE_URL=postgresql://user:pass@your-db-server
 JWT_SECRET=your-jwt-secret
@@ -252,7 +252,7 @@ We welcome contributions from the community! Here's how you can help:
 ### FAQ
 
 **Q: How do I add a new game category?**
-A: Game categories are managed through the admin panel or directly via the API.
+A: Game categories are managed through database.
 
 **Q: Can I self-host the platform?**
 A: Yes, the platform is designed for self-hosting with Docker support.
